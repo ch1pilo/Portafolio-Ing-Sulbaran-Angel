@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angel Sulbaran | Desarrollador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Ambient orbs -->
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <!-- ── NAVBAR ── -->
+    <nav id="navbar">
+        <div class="nav-inner">
+            <a href="#home" class="logo">
+                <div class="logo-dot"></div>
+                Angel<span style="color:var(--purple-light)">.</span>dev
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#case">Caso de Estudio</a></li>
+                <li><a href="#contact" class="nav-cta">Contacto</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Menú">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ── HERO ── -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-circle" style="color:var(--purple);font-size:0.5rem;"></i>
+                    Disponible para proyectos
+                </div>
+                <h1 class="hero-title">
+                    <span class="gradient">Transformando Ideas</span><br>
+                    en Experiencias<br>
+                    Digitales
+                </h1>
+                <p class="hero-sub">
+                    Soy <strong style="color:var(--text)">Angel Sulbaran</strong>, Ingeniero en Sistemas y Desarrollador Full Stack. Construyo herramientas digitales robustas, escalables y con un enfoque centrado en resultados.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn-primary">
+                        <i class="fas fa-layer-group"></i>
+                        Ver Proyectos
+                    </a>
+                    <a href="#contact" class="btn-outline">
+                        <i class="fab fa-whatsapp"></i>
+                        Hablemos
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-photo-wrap">
+                    <div class="hero-photo-ring">
+                        <div class="hero-photo-inner">
+                            <img src="img/4963265337290239963 (1).jpg" alt="Angel Sulbaran" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                            <div class="no-photo" style="display:none"><i class="fas fa-user"></i></div>
+                        </div>
+                    </div>
+                    <div class="hero-stats">
+                        <span class="hero-stats-num">8+</span>
+                        <span class="hero-stats-label">Proyectos</span>
+                    </div>
+                    <div class="hero-tech-badge">
+                        <i class="fab fa-python" style="color:var(--purple-light)"></i>
+                        Full Stack Dev
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-hint">
+            <span>scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ── ABOUT ── -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div>
+                    <div class="section-header reveal">
+                        <p class="section-tag">Sobre mí</p>
+                        <h2 class="section-title">Desarrollador con<br>mentalidad <span class="accent">creativa</span></h2>
+                    </div>
+                    <div class="about-text reveal reveal-delay-1">
+                        <p>Como Desarrollador, mi pasión es construir <span class="about-highlight">herramientas digitales robustas y escalables</span>. Combino habilidades técnicas sólidas con un enfoque creativo para resolver problemas complejos.</p>
+                        <p>Me especializo en entender los desafíos de startups y empresas, creando soluciones que realmente <span class="about-highlight">impulsen su crecimiento</span> y optimicen sus procesos.</p>
+                        <div class="about-edu">
+                            <i class="fas fa-graduation-cap"></i>
+                            Ingeniero en Sistemas
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-column reveal reveal-delay-2">
+                    <div class="skills-group">
+                        <p class="skills-group-label">Tecnologías Principales</p>
+                        <div class="skills-list">
+                            <div class="skill-chip"><i class="fab fa-java"></i> Java</div>
+                            <div class="skill-chip"><i class="fab fa-python"></i> Python</div>
+                            <div class="skill-chip"><i class="fas fa-server"></i> Django</div>
+                            <div class="skill-chip"><i class="fab fa-react"></i> React</div>
+                            <div class="skill-chip"><i class="fab fa-js"></i> JavaScript</div>
+                            <div class="skill-chip"><i class="fab fa-html5"></i> HTML5</div>
+                            <div class="skill-chip"><i class="fab fa-css3-alt"></i> CSS3</div>
+                            <div class="skill-chip"><i class="fas fa-database"></i> MySQL</div>
+                            <div class="skill-chip"><i class="fas fa-database"></i> PostgreSQL</div>
+                            <div class="skill-chip"><i class="fas fa-plug"></i> API REST</div>
+                            <div class="skill-chip"><i class="fas fa-leaf"></i> Spring Boot</div>
+                            <div class="skill-chip"><i class="fab fa-git-alt"></i> Git</div>
+                            <div class="skill-chip"><i class="fab fa-github"></i> GitHub</div>
+                        </div>
+                    </div>
+                    <div class="skills-group">
+                        <p class="skills-group-label">En Aprendizaje Activo</p>
+                        <div class="skills-list">
+                            <div class="skill-chip learning"><i class="fab fa-docker"></i> Docker</div>
+                            <div class="skill-chip learning"><i class="fas fa-robot"></i> N8N</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── PROJECTS ── -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-tag">Portafolio</p>
+                <h2 class="section-title">Proyectos <span class="accent">destacados</span></h2>
+                <p class="section-desc">Una selección de trabajos que demuestran mis capacidades técnicas y enfoque en soluciones reales.</p>
+            </div>
+
+            <div class="filter-bar reveal reveal-delay-1">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="backend">Backend</button>
+                <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+            </div>
+
+            <div class="projects-grid" id="projectsGrid">
+
+                <!-- 1 - Featured -->
+                <div class="project-card featured reveal" data-category="fullstack">
+                    <div class="project-img">
+                        <img src="img/Captura de pantalla 2026-04-08 150524.png" alt="Sistema de Crédito" onerror="this.parentElement.innerHTML='<div class=\'project-img-placeholder\'><i class=\'fas fa-chart-line\'></i></div>'">
+                        <div class="project-overlay"></div>
+                        <span class="project-num">01 · Destacado</span>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="tag">Spring Boot</span>
+                            <span class="tag">React</span>
+                            <span class="tag">Mysql</span>
+                            <span class="tag">Docker</span>
+                        </div>
+                        <h3 class="project-name">Sistema de Gestión de Nomina</h3>
+                        <p class="project-desc">Sistema de nómina automatizado utilizando Java (Spring Boot) para el backend y React para el frontend. Implementé un motor de cálculo masivo que integra conversiones de moneda en tiempo real (Tasa BCV), gestión dinámica de deducciones y generación de recibos de pago detallados.</p>
+                        <div class="project-footer">
+                            <span style="font-size:0.78rem;color:var(--text-dim)">Full Stack · 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="project-card reveal reveal-delay-1" data-category="web">
+                    <div class="project-img">
+                        <img src="img/8.png" alt="Catálogo Web" onerror="this.parentElement.innerHTML='<div class=\'project-img-placeholder\'><i class=\'fas fa-shopping-bag\'></i></div>'">
+                        <div class="project-overlay"></div>
+                        <span class="project-num">02</span>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="tag">Django</span>
+                            <span class="tag">Python</span>
+                        </div>
+                        <h3 class="project-name">Catálogo Web EmpiShoes</h3>
+                        <p class="project-desc">Plataforma para gestión y visualización de productos, con administración de inventario y exploración dinámica del catálogo.</p>
+                        <div class="project-footer">
+                            <a href="https://empishoes.pythonanywhere.com/EmpiShoes/ropa/catalogo_zapatos/" target="_blank" class="project-link">
+                                Ver proyecto <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="project-card reveal reveal-delay-2" data-category="web">
+                    <div class="project-img">
+                        <img src="img/prime.png" alt="Prime Build Works" onerror="this.parentElement.innerHTML='<div class=\'project-img-placeholder\'><i class=\'fas fa-building\'></i></div>'">
+                        <div class="project-overlay"></div>
+                        <span class="project-num">03</span>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">JS</span>
+                        </div>
+                        <h3 class="project-name">Prime Build Works</h3>
+                        <p class="project-desc">Sitio corporativo moderno para empresa canadiense de construcción. Diseño limpio con enfoque en conversión y presencia digital profesional.</p>
+                        <div class="project-footer">
+                            <a href="https://primebuildworks.ca/" target="_blank" class="project-link">
+                                Ver proyecto <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="project-card reveal" data-category="backend">
+                    <div class="project-img">
+                        <img src="img/2.png" alt="API Chatbot" onerror="this.parentElement.innerHTML='<div class=\'project-img-placeholder\'><i class=\'fas fa-robot\'></i></div>'">
+                        <div class="project-overlay"></div>
+                        <span class="project-num">04</span>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="tag">Flask</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">API REST</span>
+                        </div>
+                        <h3 class="project-name">API para Chatbot</h3>
+                        <p class="project-desc">Desarrollo de API RESTful con Flask para plataforma de soporte técnico automatizado.</p>
+                        <div class="project-footer">
+                            <span style="font-size:0.78rem;color:var(--text-dim)">Backend · 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5 -->
+                <div class="project-card reveal reveal-delay-1" data-category="web">
+                    <div class="project-img">
+                        <img src="img/6.png" alt="Landing Page EmpiShoes" onerror="this.parentElement.innerHTML='<div class=\'project-img-placeholder\'><i class=\'fas fa-store\'></i></div>'">
+                        <div class="project-overlay"></div>
+                        <span class="project-num">05</span>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">JS</span>
+                        </div>
+                        <h3 class="project-name">Landing Page EmpiShoes</h3>
+                        <p class="project-desc">Landing page enfocada en destacar los servicios y propuesta de valor de la empresa.</p>
+                        <div class="project-footer">
+                            <a href="https://ch1pilo.github.io/EMPISHOES/" target="_blank" class="project-link">
+                                Ver proyecto <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6 -->
+                <div class="project-card reveal reveal-delay-2" data-category="fullstack">
+                    <div class="project-img">
+                        <img src="img/9.png" alt="App de Registro" onerror="this.parentElement.innerHTML='<div class=\'project-img-placeholder\'><i class=\'fas fa-clipboard-list\'></i></div>'">
+                        <div class="project-overlay"></div>
+                        <span class="project-num">06</span>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="tag">Django</span>
+                            <span class="tag">Python</span>
+                        </div>
+                        <h3 class="project-name">Sistema de Registro</h3>
+                        <p class="project-desc">Sistema para llevar registros de personas con discapacidad, facilitando el seguimiento y gestión de datos institucionales.</p>
+                        <div class="project-footer">
+                            <span style="font-size:0.78rem;color:var(--text-dim)">Full Stack · 2023</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7 -->
+                <div class="project-card reveal" data-category="web">
+                    <div class="project-img">
+                        <img src="img/7.png" alt="U.E. La Cuadra de Bolívar" onerror="this.parentElement.innerHTML='<div class=\'project-img-placeholder\'><i class=\'fas fa-school\'></i></div>'">
+                        <div class="project-overlay"></div>
+                        <span class="project-num">07</span>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">JS</span>
+                        </div>
+                        <h3 class="project-name">U.E. La Cuadra de Bolívar</h3>
+                        <p class="project-desc">Portal institucional para gestión y presencia digital educativa. Diseño funcional y accesible.</p>
+                        <div class="project-footer">
+                            <span style="font-size:0.78rem;color:var(--text-dim)">Web · 2023</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 8 -->
+                <div class="project-card reveal reveal-delay-1" data-category="fullstack">
+                    <div class="project-img">
+                        <div class="project-img-placeholder">
+                            <img src="img/ciu.png" alt="">
+                            <i class="fas fa-traffic-light"></i>
+                        </div>
+                        <div class="project-overlay"></div>
+                        <span class="project-num">08</span>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Dashboard</span>
+                        </div>
+                        <h3 class="project-name">Monitor de Tráfico Vial</h3>
+                        <p class="project-desc">Plataforma interactiva para monitoreo de tráfico inteligente. Procesa métricas de flujo vehicular y detecta patrones en horas pico.</p>
+                        <div class="project-footer">
+                            <span style="font-size:0.78rem;color:var(--text-dim)">Full Stack · 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 9 -->
+                <div class="project-card reveal reveal-delay-1" data-category="fullstack">
+                    <div class="project-img">
+                        <div class="project-img-placeholder">
+                            <img src="img/credito.jpg" alt="">
+                            <i class="fas fa-traffic-light"></i>
+                        </div>
+                        <div class="project-overlay"></div>
+                        <span class="project-num">09</span>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Dashboard</span>
+                        </div>
+                        <h3 class="project-name">Sistema de Créditos</h3>
+                        <p class="project-desc">Plataforma web con motor automático de aprobación de créditos y dashboard analítico para generación de reportes estratégicos. Construido con Django y HTML/CSS/JS para distribuidora regional.</p>
+                        <div class="project-footer">
+                            <span style="font-size:0.78rem;color:var(--text-dim)">Full Stack · 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ── CASE STUDY ── -->
+    <section id="case" class="case-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-tag">Estudio de caso</p>
+                <h2 class="section-title">Solución <span class="accent">real</span> para<br>un reto real</h2>
+            </div>
+            <div class="case-card reveal reveal-delay-1">
+                <div class="case-header">
+                    <h3 class="case-title">Sistema de Gestión de Nomina</h3>
+                    <span class="case-badge"><i class="fas fa-star" style="font-size:0.7rem"></i> Proyecto destacado</span>
+                </div>
+                <div class="case-grid">
+                    <div class="case-block">
+                        <p class="case-block-label">El Reto</p>
+                        <p>El procesamiento de la nómina presentaba un alto grado de complejidad debido al manejo simultáneo de múltiples divisas, el seguimiento <strong> manual de préstamos y las variaciones por horas extras o inasistencias, </strong>lo que generaba inconsistencias financieras y retrasos administrativos.</p>
+                    </div>
+                    <div class="case-block">
+                        <p class="case-block-label">La Solución</p>
+                        <p>Se desarrollo un sistema de nómina automatizado utilizando <strong>Java (Spring Boot)</strong> para el backend y <strong>React</strong> para el frontend. Implementé un motor de cálculo masivo que integra conversiones de moneda en tiempo real (Tasa BCV), gestión dinámica de deducciones y generación de recibos de pago detallados.</p>
+                    </div>
+                    <div class="case-block">
+                        <p class="case-block-label">El Impacto</p>
+                        <p>Se redujo el tiempo de procesamiento de nómina de <strong>días a minutos</strong>, garantizando un <strong>100% de precisión</strong> en el control de saldos de préstamos y cálculos de ley, optimizando por completo la gestión de recursos humanos.</p>
+                    </div>
+                </div>
+                <div class="case-result">
+                    <div class="case-result-icon"><i class="fas fa-bolt"></i></div>
+                    <p><strong>Resultado clave:</strong> Se transformó un proceso 100% manual en un sistema automatizado que redujo el tiempo de análisis crediticio significativamente y mejoró la capacidad de seguimiento de la cartera.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-tag">Contacto</p>
+                <h2 class="section-title">¿Tienes una <span class="accent">idea</span>?<br>Hagámosla realidad.</h2>
+                <p class="section-desc">Estoy disponible para proyectos freelance, colaboraciones y oportunidades de trabajo. ¡Escríbeme!</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-form-card reveal">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label class="form-label" for="name">Tu nombre</label>
+                            <input type="text" id="name" class="form-input" placeholder="Angel Sulbaran" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="phone">Teléfono (opcional)</label>
+                            <input type="tel" id="phone" class="form-input" placeholder="+58 424 601 8457">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="message">Tu mensaje</label>
+                            <textarea id="message" class="form-textarea" placeholder="Cuéntame sobre tu proyecto..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary" style="width:100%;justify-content:center;border-radius:12px;">
+                            <i class="fab fa-whatsapp"></i>
+                            Enviar por WhatsApp
+                        </button>
+                    </form>
+                </div>
+                <div class="contact-info reveal reveal-delay-1">
+                    <h3 class="contact-info-title">Conectemos</h3>
+                    <p>Siempre estoy interesado en escuchar sobre nuevos proyectos. Si tienes alguna pregunta o quieres discutir una idea, no dudes en contactarme.</p>
+                    <div class="socials">
+                        <a href="https://github.com/ch1pilo" target="_blank" class="social-item">
+                            <div class="social-icon"><i class="fab fa-github"></i></div>
+                            <div class="social-info">
+                                <div class="social-label">GitHub</div>
+                                <div class="social-value">@ch1pilo</div>
+                            </div>
+                            <i class="fas fa-arrow-right social-arrow"></i>
+                        </a>
+                        <a href="https://www.instagram.com/as.developer_" target="_blank" class="social-item">
+                            <div class="social-icon"><i class="fab fa-instagram"></i></div>
+                            <div class="social-info">
+                                <div class="social-label">Instagram</div>
+                                <div class="social-value">@as.developer_</div>
+                            </div>
+                            <i class="fas fa-arrow-right social-arrow"></i>
+                        </a>
+                        <a href="https://wa.me/+584246018457" target="_blank" class="social-item">
+                            <div class="social-icon"><i class="fab fa-whatsapp"></i></div>
+                            <div class="social-info">
+                                <div class="social-label">WhatsApp</div>
+                                <div class="social-value">+58 424 601 8457</div>
+                            </div>
+                            <i class="fas fa-arrow-right social-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── FOOTER ── -->
+    <footer>
+        <div class="container">
+            <div class="footer-inner">
+                <p class="footer-copy">&copy; <span id="year"></span> Angel Sulbaran. Todos los derechos reservados.</p>
+                <p class="footer-made">Hecho con <span>♥</span> y mucho café</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
